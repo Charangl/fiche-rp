@@ -1,0 +1,116 @@
+.nick-bg {
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 490px;
+    border-radius: 4px;
+    padding: 1rem 1rem 2rem;
+    margin-top: 4rem;
+    text-align: justify;
+    border: solid 1px #aaa;
+}
+
+.nick-bg-title {
+    display: flex;
+    background-image: url('https://i.imgur.com/HRcUqX1.png');
+    z-index: 0;
+    position: relative;
+    width: 490px;
+    height: 115px;
+    top: -4.06rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nick-img1 {
+    width: 120px;
+    height: 88px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    object-fit: cover;
+    position: relative;
+    top: 0.2rem;
+    left: -0.6rem;
+    z-index: 2;
+}
+
+.nick-img2 {
+    width: 120px;
+    height: 88px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    object-fit: cover;
+    position: relative;
+    top: 0.2rem;
+    left: -1.8rem;
+    z-index: 2;
+}
+
+.nick-title {
+    font-family: 'Mrs Saint Delafield';
+    font-size: 40px;
+    color: #468e64;
+    background-color: transparent;
+    position: relative;
+    align-content: center;
+    text-shadow: 2px 5px 2px black;
+    top: 1.4rem;
+    right: 2.5rem;
+    width: 300px;
+    line-height: 21px;
+    text-align: center;
+    z-index: 2;
+}
+
+.nick-text {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-top: -6rem;
+    border: double 3px #444;
+}
+
+.nick-feat {
+    background-color: black;
+    clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0% 100%);
+    width: 490px;
+    height: 14px;
+    margin-top: -0.35rem;
+    position: relative;
+}
+
+.nick-ft-text {
+    font-size: 2.2rem;
+    text-align: right;
+    font-family: 'Mrs Saint Delafield';
+    position: relative;
+    color: #468e64;
+    top: -1.16em;
+    right: 10.8rem;
+    text-shadow: 2px 5px 2px black;
+    z-index: 2;
+    line-height: 2em;
+}
+
+@keyframes sway {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+}
+
+.nick-flag-icon {
+    width: 55px;
+    position: relative;
+    left: -0.8rem;
+    top: -3.6rem;
+}
+
+.nick-flag-icon:hover {
+    animation: sway 1s ease infinite;
+}
+
+.nick-ft-text span {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
