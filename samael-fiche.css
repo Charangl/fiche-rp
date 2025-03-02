@@ -1,0 +1,61 @@
+.bloc-img-sama {
+    display: flex;
+    gap: 6px;
+    justify-content: space-between;
+}
+
+.title-sama {
+    font-size: 2.2rem;
+    font-family: Hurricane;
+    background: linear-gradient(0deg, #88e6ad 0%, #49459b 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 0 5px;
+}
+
+.img-sama {
+    width: 220px;
+    height: 100px;
+    object-fit: cover;
+    padding: 4px;
+    border: 1px solid #bcbcbc;
+}
+
+.body-sam {
+    width: 454px;
+    border-top: 1px solid #bcbcbc;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 0 1px 15px 1px;
+    margin-top: -5px;
+}
+
+.text-sama {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.ft-sama {
+    text-align: right;
+    font-size: 1.2rem;
+    font-family: Hurricane;
+}
+
+.bla-sama {
+    background: linear-gradient(0deg, #68b181 15%, #49459b 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+.lettrine-sama {
+    font-size: 2.6rem;
+    float: left;
+    line-height: 1;
+    margin-right: 5px;
+    margin-bottom: -12px;
+    font-family: serif;
+}
