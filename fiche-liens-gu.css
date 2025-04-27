@@ -33,7 +33,7 @@ position: relative;
 z-index: 9;
 text-align: center;
 font: 17px Bebas Neue;
-color: var(--textColor);
+color: var(--neutral);
 writing-mode: vertical-rl;
 text-orientation: mixed;
 transform: scale(-1);
@@ -80,7 +80,7 @@ margin-top:10px;
 }
 .gu_link_inf_r_info_title {
 padding:5px;
-color:var(--textColor);
+color:var(--neutral);
 font: 13px Calibri;
 background:#873c31;
 }
