@@ -9,7 +9,7 @@ color:var(--contrastLight);
 }
 .gu_link_cit, .gu_link_inf_r_title {
 font:14px Calibri;
-color:var(--textColor);
+color:var(--neutral);
 padding:5px 10px;
 background:var(--neutralDark);
 }
