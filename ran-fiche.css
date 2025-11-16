@@ -51,7 +51,7 @@
 .trait-ran {
   width: 350px;
   height: 3px;
-  background: linear-gradient(to right, transparent, deeppink);
+  background: linear-gradient(to right, transparent, #4a2f62, #B81254);
   position: relative;
   left: 74px;
 }
