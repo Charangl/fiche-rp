@@ -9,7 +9,6 @@ color:var(--contrastLight);
 }
 .gu_link_cit, .gu_link_inf_r_title {
 font:14px Calibri;
-color:var(--neutral);
 padding:5px 10px;
 background:var(--neutralDark);
 }
@@ -33,7 +32,6 @@ position: relative;
 z-index: 9;
 text-align: center;
 font: 17px Bebas Neue;
-color: var(--neutral);
 writing-mode: vertical-rl;
 text-orientation: mixed;
 transform: scale(-1);
