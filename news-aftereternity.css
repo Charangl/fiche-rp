@@ -133,11 +133,15 @@ xlh {text-transform: uppercase;}
 .lk-lk {
     grid-area: lk-lk;
     background: linear-gradient(280deg, #4d5b6100 0%, var(--titleDynalight) 100%);
-    text-align: right;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .lk-lkb {
     grid-area: lk-lkb;
     background: linear-gradient(95deg, #4d5b6100 0%, var(--titleDynalight) 100%);
-    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
