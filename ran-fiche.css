@@ -5,8 +5,9 @@
 }
 
 .img-ran {
-  width: 100%;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   height: 90px;
+  width: 80px;
   object-fit: cover;
 }
 
