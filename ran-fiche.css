@@ -15,8 +15,11 @@
   font-family: "Luxurious Script", cursive;
   font-size: 3em;
   position: absolute;
+  text-align: left;
+  width: 400px;
   margin-top: -20px;
-  line-height: 1em;
+  line-height: 0.5em;
+  padding: 10px 0;
   background: #B81254;
   background: radial-gradient(circle farthest-corner at center center, #8290a2 5%, #5d418b 100%);
   -webkit-background-clip: text;
