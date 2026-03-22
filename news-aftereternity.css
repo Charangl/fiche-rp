@@ -6,6 +6,9 @@ xlh {text-transform: uppercase;}
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-height: 600px;
+    padding-right: 6px;
+    overflow: auto;
     gap: 20px;
 }
 
