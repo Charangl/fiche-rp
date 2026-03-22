@@ -104,6 +104,7 @@ xlh {text-transform: uppercase;}
 .descr-lk,
 .descr-lkb {
     text-align: justify;
+    height: 64px;
     background: var(--backgroundbloc);
     border: 1px solid var(--borderColor);
 }
